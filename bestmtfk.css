@@ -1,0 +1,166 @@
+@font-face{
+	font-family: "OpenSansRegular";
+	src: url("OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "OpenSansLight";
+	src: url("OpenSans-Light.ttf") format("truetype");
+}
+
+
+body {
+	color: #454545 ;
+	/*padding: 0px 16px 0px 16px;*/
+	margin: 2em auto;
+	max-width: 800px;
+	/*margin: auto;*/
+	padding: 1em;
+
+	font-family: 'OpenSansRegular', sans-serif; 
+	text-align: justify;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 32px;
+	/*padding-top: 48px;
+	padding-bottom: 0px;*/
+} 
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 21px;
+}
+
+p, ul {
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+a:visited {
+	color: #941352;
+}
+
+
+.soustitre {
+	font-size: 15.4px;
+	font-family: 'OpenSansLight', sans-serif; 
+	padding-top: 6px;
+
+}
+
+.cyan {
+	color: #16a085;
+}
+
+a {
+	color: #07a;
+}
+.wrong {
+	color: #c0392b;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.small {
+	font-size: 7px;
+}
+
+.multicolor {
+	 -webkit-animation:colorchange 5s infinite alternate;
+}
+
+.carre {
+	width: 16px;
+	height: 16px;
+	background-color: #454545;
+	margin: 4px;
+	font-size: 10px;
+	overflow: hidden;
+}
+
+.chat {
+	float:left;
+	width: 40%;
+	margin-right: 1em;
+}
+
+.sous{
+	clear: both;
+	font-size: 10px;
+	padding-top: 2em;
+}
+
+.big{
+	font-size: 50px;
+	font-family: serif;
+}
+
+.author{
+	font-size: 12px;
+	padding: 0px 0px 14px 40px;
+
+}
+
+.kopimi{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 4%;
+}
+
+@-webkit-keyframes colorchange {
+  0% {    color: blue;  }
+
+  10% {    color: #8e44ad;  }
+
+  20% {    color: #1abc9c;  }
+
+  30% {    color: #d35400;  }
+
+  40% {    color: blue;  }
+
+  50% {    color: #34495e;  }
+
+  60% {    color: blue;  }
+
+  70% {    color: #2980b9;  }
+
+  80% {    color: #f1c40f;  }
+
+  90% {    color: #2980b9;  }
+
+  100% {	color: pink;  }
+}
+
+
+.blue {
+	color: blue;
+}
+
+.purple {
+	color: purple;
+}
+
+.eee
+{
+	font-family: sans-serif, serif;
+}
+
+.citation
+{
+	padding: 0px 0px 16px 40px;
+	border-bottom: 2px #808080 groove;
+	/*box-shadow: 0px 1px 1px #303030;*/
+}
+
+.container
+{
+	padding-bottom: 500px;
+}
